@@ -29,7 +29,8 @@ sub new {
 
     my %options = ClientThing::FixOptions(@options);
 
-    $options{url} ||= 'http://servers.theseed.org/figdisk/FIG/AT_server.cgi';
+    # $options{url} ||= 'http://www.theseed.org/servers/figdisk/FIG/AT_server.cgi';
+    $options{url} ||= 'https://servers.theseed.org/figdisk/FIG/AT_server.cgi';
     # $options{url} ||= "http://bioseed.mcs.anl.gov/~fangfang/FIG/AT_server.cgi";
     # $options{url} = ClientThing::ComputeURL($options{url}, 'AT_server.cgi', 'AT');
     # $options{url} = "localhost";
