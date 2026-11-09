@@ -2,7 +2,7 @@
 #
 #   svr_NCBI_sequence [options] geninfo ...
 #
-#   http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=347943457&rettype=fasta&retmode=xml
+#   https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=347943457&rettype=fasta&retmode=xml
 #
 
 #
